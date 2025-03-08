@@ -18,7 +18,7 @@ const route = useRoute();
 interface IAuth {
     name: string; // 权限名称
     roleId: number; // 角色ID
-    roleList?: IAuth[]; // 角色列表子权限
+    roleList?: IAuth[]; // 角色列表 子权限
 }
 const treeRef = ref<any>(null);
 let authList = ref<IAuth[]>([]);
