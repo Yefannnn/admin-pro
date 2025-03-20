@@ -2,7 +2,7 @@ name: deploy
 
 on:
     push:
-        branches:[matser]  # master 分支有代码提交时触发
+        branches:["matser"]  # master 分支有代码提交时触发
         paths-ignore: # 忽略的文件
             - 'README.md'
             - 'LICENSE'
